@@ -16,7 +16,7 @@ services:
     ports:
       - 5000:5000
 
-  vk_handler:
+  vk_wall_handler:
       image: stargazer87/vk_wall_handler
       networks:
         - emotions
@@ -30,7 +30,7 @@ services:
       ports:
         - 5001:5000
 
-  bot:
+  tgbot:
     image: stargazer87/tgbot
     networks:
       - emotions
