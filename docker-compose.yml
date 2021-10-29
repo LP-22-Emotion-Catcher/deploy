@@ -14,7 +14,7 @@ services:
       - emotions
     env_file: .env
     ports:
-      - 5001:5001
+      - 5000:5000
 
   vk_handler:
       image: stargazer87/vk_wall_handler
@@ -28,15 +28,13 @@ services:
         - emotions
       env_file: .env
       ports:
-        - 5000:5000
+        - 5001:5000
 
   bot:
     image: stargazer87/tgbot
     networks:
       - emotions
     env_file: .env
-    ports:
-      - 5005:5005
 
 networks:
   emotions:
