@@ -10,7 +10,7 @@
 
     ```- docker-compose exec backend python -m service.database.models```
 
-3. You need to add some walls from VK to the DB first, which from you will get new posts and emotion color for them after. You may do it one of these ways:
+3. You need to add some walls from VK to the DB first, which for you will get new posts and emotion color for them after. You may do it one of these ways:
 
     - From the TG BOT, type the command in this format - ```/setwall wall_link``` (example of wall_link is https://vk.com/wall-[wall])
 
