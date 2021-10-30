@@ -10,7 +10,7 @@
 
     ```- docker-compose exec backend python -m service.database.models```
 
-3. You need to add some walls from VK to the DB first, which from you will get new posts and emotion color for them after. You may do it one of these ways:
+3. You need to add some walls from VK to the DB first, which for you will get new posts and emotion color for them after. You may do it one of these ways:
 
     - From the TG BOT, type the command in this format - ```/setwall wall_link``` (example of wall_link is https://vk.com/wall-[wall])
 
@@ -24,7 +24,7 @@
     - You can get posts from the current wall with emotion color you are setting, typing this command - ```posts/ wall_id emotion``` (as an example, wall_id:-30666517, emotion:positive, 
     ```/posts -30666517 positive```). There are 5 type of emotions you can chose and get (*positive, negative, neutral, skip or speech*)
 
-*Much thanks to **thesee guys**, we are currently using the model which was trained on their dataset!*
+*Much thanks to **these guys**, we are currently using the model which was trained on their dataset!*
 
 ```
 @inproceedings{rogers-etal-2018-rusentiment,
