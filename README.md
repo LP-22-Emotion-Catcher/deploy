@@ -24,7 +24,7 @@
     - You can get posts from the current wall with emotion color you are setting, typing this command - ```posts/ wall_id emotion``` (as an example, wall_id:-30666517, emotion:positive, 
     ```/posts -30666517 positive```). There are 5 type of emotions you can chose and get (*positive, negative, neutral, skip or speech*)
 
-*Much thanks to **theese guys**, we are currently using the model which was trained on their dataset!*
+*Much thanks to **these guys**, we are currently using the model which was trained on their dataset!*
 
 ```
 @inproceedings{rogers-etal-2018-rusentiment,
