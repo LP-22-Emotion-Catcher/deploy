@@ -5,8 +5,8 @@ services:
     networks:
       - emotions
     env_file: .env
-    ports:
-      - 5432:5432
+    volumes:
+      - ./postgres-data:/var/lib/postgresql/data
 
   backend:
     image: stargazer87/backend
@@ -14,7 +14,6 @@ services:
       - emotions
     env_file: .env
     ports:
-      - 5000:5000
 
   vk_wall_handler:
       image: stargazer87/vk_wall_handler
@@ -27,8 +26,6 @@ services:
       networks:
         - emotions
       env_file: .env
-      ports:
-        - 5001:5000
 
   tgbot:
     image: stargazer87/tgbot
